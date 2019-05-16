@@ -1,0 +1,168 @@
+{
+  "uid" : "b9e9c4b0b9feee0e",
+  "name" : "test_soso",
+  "fullName" : "test_webbaidu_onemodule#test_soso",
+  "historyId" : "9520d7a51de96ead89a7a5c64e6a7f8c",
+  "time" : {
+    "start" : 1557900223379,
+    "stop" : 1557900224601,
+    "duration" : 1222
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1557900219666,
+      "stop" : 1557900221660,
+      "duration" : 1994
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "start",
+    "time" : {
+      "start" : 1557900221660,
+      "stop" : 1557900223377,
+      "duration" : 1717
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step one:打开浏览器输入百度网址",
+      "time" : {
+        "start" : 1557900221661,
+        "stop" : 1557900223377,
+        "duration" : 1716
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step two：在搜索栏输入allure,并点击百度一下",
+      "time" : {
+        "start" : 1557900223379,
+        "stop" : 1557900224601,
+        "duration" : 1222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "825198e0306679f0",
+      "name" : "log",
+      "source" : "825198e0306679f0.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "60adac96033902d4",
+      "name" : "stdout",
+      "source" : "60adac96033902d4.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "271660208f8864f8",
+      "name" : "stderr",
+      "source" : "271660208f8864f8.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::close_browser",
+    "time" : {
+      "start" : 1557900229760,
+      "stop" : 1557900229861,
+      "duration" : 101
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "搜索验证-字母"
+  }, {
+    "name" : "feature",
+    "value" : "百度搜索功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_webbaidu_onemodule"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "57512-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_webbaidu_onemodule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fd924b681c729e53",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1557900111138,
+        "stop" : 1557900111138,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9e9c4b0b9feee0e.json",
+  "parameterValues" : [ ]
+}

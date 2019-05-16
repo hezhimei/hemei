@@ -1,0 +1,103 @@
+{
+  "uid" : "be2cb19f87e10fd7",
+  "name" : "test_parametrize_with_two_parameters[string 1-True]",
+  "fullName" : "test_step_param#test_parametrize_with_two_parameters[string 1-True]",
+  "historyId" : "c750023451bc65443e901d4fc4536e07",
+  "time" : {
+    "start" : 1557903325282,
+    "stop" : 1557903325283,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "simple_step",
+      "time" : {
+        "start" : 1557903325282,
+        "stop" : 1557903325283,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "step_param1",
+        "value" : "True"
+      }, {
+        "name" : "step_param2",
+        "value" : "'string 1'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "89388a0e2d098714",
+      "name" : "log",
+      "source" : "89388a0e2d098714.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "91772f96c7f8028e",
+      "name" : "stdout",
+      "source" : "91772f96c7f8028e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "e30b09a384a67a",
+      "name" : "stderr",
+      "source" : "e30b09a384a67a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_step_param"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "71450-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_step_param"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param1",
+    "value" : "True"
+  }, {
+    "name" : "param2",
+    "value" : "'string 1'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be2cb19f87e10fd7.json",
+  "parameterValues" : [ "True", "'string 1'" ]
+}

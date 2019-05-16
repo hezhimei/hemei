@@ -1,0 +1,166 @@
+{
+  "uid" : "632c89e91f3355de",
+  "name" : "test_case_example[letter]",
+  "fullName" : "test_allure_all#test_case_example[letter]",
+  "historyId" : "01feb54e3c24c9784b19a7351967eab4",
+  "time" : {
+    "start" : 1557904261500,
+    "stop" : 1557904261501,
+    "duration" : 1
+  },
+  "description" : "测试相加的各种情况",
+  "descriptionHtml" : "<p>测试相加的各种情况</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试相加的各种情况",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试步骤1：字符串相加：'hello world'，'hello world'",
+      "time" : {
+        "start" : 1557904261500,
+        "stop" : 1557904261500,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "str1",
+        "value" : "'hello world'"
+      }, {
+        "name" : "str2",
+        "value" : "'hello world'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "测试步骤2，结果校验 hello worldhello world == hello worldhello world",
+      "time" : {
+        "start" : 1557904261501,
+        "stop" : 1557904261501,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "996fadc1d8e43c57",
+        "name" : "这是错误页的结果信息",
+        "source" : "996fadc1d8e43c57.html",
+        "type" : "text/html",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2233d9d7c1f4d80",
+      "name" : "{'para_one': 'hello world', 'para_two': 'hello world'}",
+      "source" : "2233d9d7c1f4d80.attach",
+      "type" : "text/plain",
+      "size" : 12
+    }, {
+      "uid" : "b71f0a7f6d764fef",
+      "name" : "hello worldhello world",
+      "source" : "b71f0a7f6d764fef.attach",
+      "type" : "text/plain",
+      "size" : 19
+    }, {
+      "uid" : "96e115b51ac574b7",
+      "name" : "log",
+      "source" : "96e115b51ac574b7.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "609553a08fb7d6a9",
+      "name" : "stdout",
+      "source" : "609553a08fb7d6a9.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "91896c66faf34899",
+      "name" : "stderr",
+      "source" : "91896c66faf34899.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "测试模块_demo2"
+  }, {
+    "name" : "feature",
+    "value" : "测试功能_demo1"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_all"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "76426-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "para_one",
+    "value" : "'hello world'"
+  }, {
+    "name" : "para_two",
+    "value" : "'hello world'"
+  } ],
+  "links" : [ {
+    "name" : "用例名：测试字符串相等",
+    "url" : "用例名：测试字符串相等",
+    "type" : "test_case"
+  }, {
+    "name" : "http://www.jira.com/id=19688",
+    "url" : "http://www.jira.com/id=19688",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "542962e0e86674f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557903308465,
+        "stop" : 1557903308466,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "632c89e91f3355de.json",
+  "parameterValues" : [ "'hello world'", "'hello world'" ]
+}

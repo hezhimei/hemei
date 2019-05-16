@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "982e81ef545cfdd3a4eef03af961420a",
+    "name" : "pytest_demo",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 11
+    }
+  } ]
+}

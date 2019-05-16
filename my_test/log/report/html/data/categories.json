@@ -1,0 +1,98 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 54 == 42",
+      "children" : [ {
+        "name" : "test_add[54-42]",
+        "uid" : "ed98f6b4c378cb72",
+        "parentUid" : "0d3d57d4432979815bc83bf830629968",
+        "status" : "failed",
+        "time" : {
+          "start" : 1557282962444,
+          "stop" : 1557282962444,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "54", "42" ]
+      } ],
+      "uid" : "0d3d57d4432979815bc83bf830629968"
+    }, {
+      "name" : "AssertionError: assert 4 == 5\n +  where 4 = add(1, 3)",
+      "children" : [ {
+        "name" : "test_add2",
+        "uid" : "ad571ca46aed4245",
+        "parentUid" : "2946221a019fd286f2029939c27da9dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1557282962500,
+          "stop" : 1557282962500,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2946221a019fd286f2029939c27da9dc"
+    }, {
+      "name" : "AssertionError: assert None == [1, 2, 4, 5, 9]\n +  where None = bubble_sort([1, 2, 4, 5, 9])",
+      "children" : [ {
+        "name" : "test_bubble_sort[nums0]",
+        "uid" : "74f2deb4f577d38f",
+        "parentUid" : "96efa107e53d3bac658296bdcc6e4535",
+        "status" : "failed",
+        "time" : {
+          "start" : 1557282962508,
+          "stop" : 1557282962509,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[4, 2, 5, 9, 1]" ]
+      } ],
+      "uid" : "96efa107e53d3bac658296bdcc6e4535"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('nums', <FixtureRequest for <Function 'test_bubble_sort1'>>)",
+      "children" : [ {
+        "name" : "test_bubble_sort1",
+        "uid" : "1b84b01bd260c20d",
+        "parentUid" : "c82965cb826c7a233905a190aadd10f3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557282962516,
+          "stop" : 1557282962516,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c82965cb826c7a233905a190aadd10f3"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('nums', <FixtureRequest for <Function 'test_bubble_sort2'>>)",
+      "children" : [ {
+        "name" : "test_bubble_sort2",
+        "uid" : "fc5c5fbe88fd825f",
+        "parentUid" : "967cbdf3fdbc4adf2032d4af7d5f9c01",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557282962522,
+          "stop" : 1557282962522,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "967cbdf3fdbc4adf2032d4af7d5f9c01"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

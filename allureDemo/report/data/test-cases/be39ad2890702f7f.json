@@ -1,0 +1,166 @@
+{
+  "uid" : "be39ad2890702f7f",
+  "name" : "test_case_example[unicode]",
+  "fullName" : "test_allure_all#test_case_example[unicode]",
+  "historyId" : "a6d2c828ba4bc64b9512a8d52180d510",
+  "time" : {
+    "start" : 1557904261519,
+    "stop" : 1557904261521,
+    "duration" : 2
+  },
+  "description" : "测试相加的各种情况",
+  "descriptionHtml" : "<p>测试相加的各种情况</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试相加的各种情况",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试步骤1：字符串相加：'我不是超人'，'我是超人'",
+      "time" : {
+        "start" : 1557904261520,
+        "stop" : 1557904261520,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "str1",
+        "value" : "'我不是超人'"
+      }, {
+        "name" : "str2",
+        "value" : "'我是超人'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "测试步骤2，结果校验 我不是超人我是超人 == 我不是超人我是超人",
+      "time" : {
+        "start" : 1557904261521,
+        "stop" : 1557904261521,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa92d2ad6ef0c6bf",
+        "name" : "这是错误页的结果信息",
+        "source" : "aa92d2ad6ef0c6bf.html",
+        "type" : "text/html",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "57bb7f0928399d74",
+      "name" : "{'para_one': '我不是超人', 'para_two': '我是超人'}",
+      "source" : "57bb7f0928399d74.attach",
+      "type" : "text/plain",
+      "size" : 12
+    }, {
+      "uid" : "6e36ccee8c538901",
+      "name" : "我不是超人我是超人",
+      "source" : "6e36ccee8c538901.attach",
+      "type" : "text/plain",
+      "size" : 19
+    }, {
+      "uid" : "9994fe6695ecbed8",
+      "name" : "log",
+      "source" : "9994fe6695ecbed8.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d049c0dfb375625a",
+      "name" : "stdout",
+      "source" : "d049c0dfb375625a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "3c95707ccf5f20ae",
+      "name" : "stderr",
+      "source" : "3c95707ccf5f20ae.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "测试模块_demo2"
+  }, {
+    "name" : "feature",
+    "value" : "测试功能_demo1"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_all"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "76426-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "para_one",
+    "value" : "'我不是超人'"
+  }, {
+    "name" : "para_two",
+    "value" : "'我是超人'"
+  } ],
+  "links" : [ {
+    "name" : "用例名：测试字符串相等",
+    "url" : "用例名：测试字符串相等",
+    "type" : "test_case"
+  }, {
+    "name" : "http://www.jira.com/id=19688",
+    "url" : "http://www.jira.com/id=19688",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "752936d4c2533d85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557903308476,
+        "stop" : 1557903308477,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be39ad2890702f7f.json",
+  "parameterValues" : [ "'我不是超人'", "'我是超人'" ]
+}

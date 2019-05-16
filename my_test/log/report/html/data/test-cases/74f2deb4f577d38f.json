@@ -1,0 +1,92 @@
+{
+  "uid" : "74f2deb4f577d38f",
+  "name" : "test_bubble_sort[nums0]",
+  "fullName" : "pytest_demo.test_pytest_practice#test_bubble_sort[nums0]",
+  "historyId" : "d6628b1fe585d530de2c9c4a242cedc4",
+  "time" : {
+    "start" : 1557282962508,
+    "stop" : 1557282962509,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert None == [1, 2, 4, 5, 9]\n +  where None = bubble_sort([1, 2, 4, 5, 9])",
+  "statusTrace" : "nums = [1, 2, 4, 5, 9]\n\n    @pytest.mark.parametrize('nums',[([4,2,5,9,1])])\n    def test_bubble_sort(nums):\n>       assert bubble_sort(nums) == [1, 2, 4, 5, 9]\nE       assert None == [1, 2, 4, 5, 9]\nE        +  where None = bubble_sort([1, 2, 4, 5, 9])\n\npytest_demo/test_pytest_practice.py:22: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert None == [1, 2, 4, 5, 9]\n +  where None = bubble_sort([1, 2, 4, 5, 9])",
+    "statusTrace" : "nums = [1, 2, 4, 5, 9]\n\n    @pytest.mark.parametrize('nums',[([4,2,5,9,1])])\n    def test_bubble_sort(nums):\n>       assert bubble_sort(nums) == [1, 2, 4, 5, 9]\nE       assert None == [1, 2, 4, 5, 9]\nE        +  where None = bubble_sort([1, 2, 4, 5, 9])\n\npytest_demo/test_pytest_practice.py:22: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "edb0b656546fcee5",
+      "name" : "log",
+      "source" : "edb0b656546fcee5.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "af71ea1adbe443d8",
+      "name" : "stdout",
+      "source" : "af71ea1adbe443d8.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "a1f64cb0bea08c48",
+      "name" : "stderr",
+      "source" : "a1f64cb0bea08c48.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytest_demo"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest_practice"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "13188-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_demo.test_pytest_practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "nums",
+    "value" : "[4, 2, 5, 9, 1]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "74f2deb4f577d38f.json",
+  "parameterValues" : [ "[4, 2, 5, 9, 1]" ]
+}

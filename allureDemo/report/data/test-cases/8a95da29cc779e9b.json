@@ -1,0 +1,86 @@
+{
+  "uid" : "8a95da29cc779e9b",
+  "name" : "test_with_no_severity_label",
+  "fullName" : "test_severity#test_with_no_severity_label",
+  "historyId" : "c37b61ac4af5c2df4aabf5a5382c3b44",
+  "time" : {
+    "start" : 1557904281132,
+    "stop" : 1557904281132,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f5f34d2de234e334",
+      "name" : "log",
+      "source" : "f5f34d2de234e334.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d5cc37d37f71d922",
+      "name" : "stdout",
+      "source" : "d5cc37d37f71d922.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "5c3d5e72646979c2",
+      "name" : "stderr",
+      "source" : "5c3d5e72646979c2.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_severity"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "76426-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_severity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7f61e06758ec438e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557903325256,
+        "stop" : 1557903325256,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a95da29cc779e9b.json",
+  "parameterValues" : [ ]
+}

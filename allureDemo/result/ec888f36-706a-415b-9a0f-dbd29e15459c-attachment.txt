@@ -1,0 +1,1 @@
+test_severity.py            19 ERROR    这是测试severity标签-BLOCKER的日志info

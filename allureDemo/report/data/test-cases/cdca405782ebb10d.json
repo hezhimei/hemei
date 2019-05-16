@@ -1,0 +1,185 @@
+{
+  "uid" : "cdca405782ebb10d",
+  "name" : "test_add_shopping_trolley",
+  "fullName" : "test_story.TestShoppingTrolley#test_add_shopping_trolley",
+  "historyId" : "3c2fa63166bf8ba0c77126ceed34c908",
+  "time" : {
+    "start" : 1557904281206,
+    "stop" : 1557904281209,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "用户登录",
+      "time" : {
+        "start" : 1557904281206,
+        "stop" : 1557904281206,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'linda'"
+      }, {
+        "name" : "pwd",
+        "value" : "'88888'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "浏览商品",
+      "time" : {
+        "start" : 1557904281206,
+        "stop" : 1557904281207,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6637f10c5bd03c17",
+        "name" : "三星",
+        "source" : "6637f10c5bd03c17.attach",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "bb42693ed11ccedc",
+        "name" : "linda",
+        "source" : "bb42693ed11ccedc.attach",
+        "type" : "text/plain",
+        "size" : 7
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "点击商品",
+      "time" : {
+        "start" : 1557904281208,
+        "stop" : 1557904281208,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "校验结果",
+      "time" : {
+        "start" : 1557904281208,
+        "stop" : 1557904281209,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2e840e5132071014",
+        "name" : "添加购物车成功",
+        "source" : "2e840e5132071014.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "64c5afa79603e0f2",
+        "name" : "添加购物车失败",
+        "source" : "64c5afa79603e0f2.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e2a2af63cec4baf9",
+      "name" : "log",
+      "source" : "e2a2af63cec4baf9.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d4da014893eaba9d",
+      "name" : "stdout",
+      "source" : "d4da014893eaba9d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "eb45139fb22f77a4",
+      "name" : "stderr",
+      "source" : "eb45139fb22f77a4.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "加入购物车"
+  }, {
+    "name" : "feature",
+    "value" : "购物车功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_story"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestShoppingTrolley"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "76426-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_story"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "666bf59e32f39d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557903325310,
+        "stop" : 1557903325311,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdca405782ebb10d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,155 @@
+{
+  "uid" : "daf4cbb31a46fde3",
+  "name" : "test_steps_demo[allure]",
+  "fullName" : "test_sele_allure#test_steps_demo[allure]",
+  "historyId" : "759c7867f45ed77df105f4a1d7a9bba1",
+  "time" : {
+    "start" : 1557903308485,
+    "stop" : 1557903314334,
+    "duration" : 5849
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step one:打开浏览器输入百度网址",
+      "time" : {
+        "start" : 1557903308486,
+        "stop" : 1557903311426,
+        "duration" : 2940
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step two：在搜索栏输入allure,并点击百度一下",
+      "time" : {
+        "start" : 1557903311426,
+        "stop" : 1557903313688,
+        "duration" : 2262
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step three：截图保存到项目中",
+      "time" : {
+        "start" : 1557903313688,
+        "stop" : 1557903314247,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d449959280a73054",
+        "name" : "f2abbba8-2540-4fed-8947-d7d64100c5b9-attachment.png",
+        "source" : "d449959280a73054.png",
+        "type" : "image/png",
+        "size" : 673263
+      }, {
+        "uid" : "e5ec1b65f0748b79",
+        "name" : "Attach with HTML type",
+        "source" : "e5ec1b65f0748b79.html",
+        "type" : "text/html",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "step four：关闭浏览器，退出",
+      "time" : {
+        "start" : 1557903314247,
+        "stop" : 1557903314334,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e310784b0f8a4864",
+      "name" : "log",
+      "source" : "e310784b0f8a4864.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "6ccdf447e530d1e",
+      "name" : "stdout",
+      "source" : "6ccdf447e530d1e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f98cafc68ff973a0",
+      "name" : "stderr",
+      "source" : "f98cafc68ff973a0.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_sele_allure"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "71450-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_sele_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data1",
+    "value" : "'allure'"
+  } ],
+  "links" : [ {
+    "name" : "https://www.baidu.com的搜索功能",
+    "url" : "https://www.baidu.com的搜索功能",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "daf4cbb31a46fde3.json",
+  "parameterValues" : [ "'allure'" ]
+}

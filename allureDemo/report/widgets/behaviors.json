@@ -1,0 +1,26 @@
+{
+  "total" : 18,
+  "items" : [ {
+    "uid" : "13107ad838d9e0b8da43e1b977ff0d34",
+    "name" : "购物车功能",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "e888540c3b09f14c1118e30053b0eb6d",
+    "name" : "测试功能_demo1",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

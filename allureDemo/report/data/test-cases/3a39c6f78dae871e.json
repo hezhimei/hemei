@@ -1,0 +1,165 @@
+{
+  "uid" : "3a39c6f78dae871e",
+  "name" : "test_steps_demo[unittest]",
+  "fullName" : "test_sele_allure#test_steps_demo[unittest]",
+  "historyId" : "e705b7698ab864f3f8118ff87d9b19ca",
+  "time" : {
+    "start" : 1557904274730,
+    "stop" : 1557904281125,
+    "duration" : 6395
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step one:打开浏览器输入百度网址",
+      "time" : {
+        "start" : 1557904274730,
+        "stop" : 1557904277882,
+        "duration" : 3152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step two：在搜索栏输入unittest,并点击百度一下",
+      "time" : {
+        "start" : 1557904277882,
+        "stop" : 1557904280269,
+        "duration" : 2387
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step three：截图保存到项目中",
+      "time" : {
+        "start" : 1557904280269,
+        "stop" : 1557904281031,
+        "duration" : 762
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1f50625dd94d00a",
+        "name" : "a6305ecc-c105-41c8-a8cb-8553be6df766-attachment.png",
+        "source" : "a1f50625dd94d00a.png",
+        "type" : "image/png",
+        "size" : 753552
+      }, {
+        "uid" : "5e39be9a5093eae6",
+        "name" : "Attach with HTML type",
+        "source" : "5e39be9a5093eae6.html",
+        "type" : "text/html",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "step four：关闭浏览器，退出",
+      "time" : {
+        "start" : 1557904281031,
+        "stop" : 1557904281125,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "45598a55020526a0",
+      "name" : "log",
+      "source" : "45598a55020526a0.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ef3dcd2438381de",
+      "name" : "stdout",
+      "source" : "ef3dcd2438381de.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f3643a200c77057d",
+      "name" : "stderr",
+      "source" : "f3643a200c77057d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_sele_allure"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "76426-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_sele_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data1",
+    "value" : "'unittest'"
+  } ],
+  "links" : [ {
+    "name" : "https://www.baidu.com的搜索功能",
+    "url" : "https://www.baidu.com的搜索功能",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b45cb871f2c7706a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557903319967,
+        "stop" : 1557903325250,
+        "duration" : 5283
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a39c6f78dae871e.json",
+  "parameterValues" : [ "'unittest'" ]
+}

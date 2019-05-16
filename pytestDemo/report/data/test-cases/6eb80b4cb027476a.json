@@ -1,0 +1,89 @@
+{
+  "uid" : "6eb80b4cb027476a",
+  "name" : "test_two",
+  "fullName" : "test_class1.TestClass#test_two",
+  "historyId" : "6793b1d7d8591ece7f5c70c978fbbd8e",
+  "time" : {
+    "start" : 1557831266436,
+    "stop" : 1557831266437,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'hello1' == 'hello'\n  - hello1\n  ?      -\n  + hello",
+  "statusTrace" : "self = <pytestDemo.test_class1.TestClass object at 0x10c064e10>\n\n    def test_two(self):\n        x = \"hello\"\n>       assert \"hello1\" == x\nE       AssertionError: assert 'hello1' == 'hello'\nE         - hello1\nE         ?      -\nE         + hello\n\ntest_class1.py:43: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'hello1' == 'hello'\n  - hello1\n  ?      -\n  + hello",
+    "statusTrace" : "self = <pytestDemo.test_class1.TestClass object at 0x10c064e10>\n\n    def test_two(self):\n        x = \"hello\"\n>       assert \"hello1\" == x\nE       AssertionError: assert 'hello1' == 'hello'\nE         - hello1\nE         ?      -\nE         + hello\n\ntest_class1.py:43: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "53233c72abd9abe2",
+      "name" : "log",
+      "source" : "53233c72abd9abe2.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "787e64a74a66578f",
+      "name" : "stdout",
+      "source" : "787e64a74a66578f.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "5928bdd22a85121e",
+      "name" : "stderr",
+      "source" : "5928bdd22a85121e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_class1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "50544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_class1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6eb80b4cb027476a.json",
+  "parameterValues" : [ ]
+}

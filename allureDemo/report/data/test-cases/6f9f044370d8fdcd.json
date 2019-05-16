@@ -1,0 +1,89 @@
+{
+  "uid" : "6f9f044370d8fdcd",
+  "name" : "test_with_normal_severity",
+  "fullName" : "test_severity#test_with_normal_severity",
+  "historyId" : "3971b80847702121251e1a75311b0a6e",
+  "time" : {
+    "start" : 1557904281142,
+    "stop" : 1557904281142,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b14c044a94b32b14",
+      "name" : "log",
+      "source" : "b14c044a94b32b14.txt",
+      "type" : "text/plain",
+      "size" : 87
+    }, {
+      "uid" : "d09272cc342d8360",
+      "name" : "stdout",
+      "source" : "d09272cc342d8360.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "5df1ac728b38c372",
+      "name" : "stderr",
+      "source" : "5df1ac728b38c372.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "suite",
+    "value" : "test_severity"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "76426-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_severity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "cee341ee29c5c430",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557903325261,
+        "stop" : 1557903325261,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f9f044370d8fdcd.json",
+  "parameterValues" : [ ]
+}

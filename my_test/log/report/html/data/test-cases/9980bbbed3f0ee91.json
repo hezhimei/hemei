@@ -1,0 +1,81 @@
+{
+  "uid" : "9980bbbed3f0ee91",
+  "name" : "test_add2",
+  "fullName" : "pytest_demo.test_pytest2#test_add2",
+  "historyId" : "2ec954325eb16f33b8c96f8b01639a3f",
+  "time" : {
+    "start" : 1557282960416,
+    "stop" : 1557282962420,
+    "duration" : 2004
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ea34031b870ac750",
+      "name" : "log",
+      "source" : "ea34031b870ac750.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "6a204a90a678b073",
+      "name" : "stdout",
+      "source" : "6a204a90a678b073.txt",
+      "type" : "text/plain",
+      "size" : 7
+    }, {
+      "uid" : "bf2e035b273ea6ea",
+      "name" : "stderr",
+      "source" : "bf2e035b273ea6ea.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytest_demo"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest2"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "13188-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_demo.test_pytest2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9980bbbed3f0ee91.json",
+  "parameterValues" : [ ]
+}

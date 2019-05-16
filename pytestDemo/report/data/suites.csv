@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue May 14 18:54:26 CST 2019","Tue May 14 18:54:26 CST 2019","0","","test_class1","","","","test_w_two",""
+"passed","Tue May 14 18:54:26 CST 2019","Tue May 14 18:54:26 CST 2019","1","","test_class1","","","","test_w_one",""
+"failed","Tue May 14 18:54:26 CST 2019","Tue May 14 18:54:26 CST 2019","0","","test_class1","TestClass","","","test_one",""
+"passed","Tue May 14 18:54:26 CST 2019","Tue May 14 18:54:26 CST 2019","0","","test_class1","TestClass","","","test_three",""
+"failed","Tue May 14 18:54:26 CST 2019","Tue May 14 18:54:26 CST 2019","1","","test_class1","TestClass","","","test_two",""

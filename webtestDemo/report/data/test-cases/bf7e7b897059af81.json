@@ -1,0 +1,168 @@
+{
+  "uid" : "bf7e7b897059af81",
+  "name" : "test_news",
+  "fullName" : "test_webbaidu_onemodule#test_news",
+  "historyId" : "9974b4e399d7b4c5b3e5ed0f5114621f",
+  "time" : {
+    "start" : 1557900225750,
+    "stop" : 1557900229759,
+    "duration" : 4009
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start",
+    "time" : {
+      "start" : 1557900224606,
+      "stop" : 1557900225749,
+      "duration" : 1143
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step one:打开浏览器输入百度网址",
+      "time" : {
+        "start" : 1557900224606,
+        "stop" : 1557900225749,
+        "duration" : 1143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1557900219666,
+      "stop" : 1557900221660,
+      "duration" : 1994
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step three：点击新闻，验证是否跳转",
+      "time" : {
+        "start" : 1557900225750,
+        "stop" : 1557900229759,
+        "duration" : 4009
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "84f39625da2242db",
+      "name" : "log",
+      "source" : "84f39625da2242db.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "22bd839310488a26",
+      "name" : "stdout",
+      "source" : "22bd839310488a26.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ff7193ee60a26140",
+      "name" : "stderr",
+      "source" : "ff7193ee60a26140.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::close_browser",
+    "time" : {
+      "start" : 1557900229760,
+      "stop" : 1557900229861,
+      "duration" : 101
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "搜索打开新闻页"
+  }, {
+    "name" : "feature",
+    "value" : "百度new功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_webbaidu_onemodule"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "57512-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_webbaidu_onemodule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a543f74bec5cf853",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1557900111300,
+        "stop" : 1557900111300,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf7e7b897059af81.json",
+  "parameterValues" : [ ]
+}

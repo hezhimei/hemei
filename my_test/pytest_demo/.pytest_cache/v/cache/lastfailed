@@ -1,0 +1,5 @@
+{
+  "test_add_demo.py::test_add2": true,
+  "test_add_demo.py::test_add3": true,
+  "test_pytest_practice.py::test_bubble_sort[nums0]": true
+}

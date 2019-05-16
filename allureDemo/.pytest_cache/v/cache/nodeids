@@ -1,0 +1,6 @@
+[
+  "test_allure_all.py::test_case_example[letter]",
+  "test_allure_all.py::test_case_example[decimal123]",
+  "test_allure_all.py::test_case_example[unicode]",
+  "test_allure_all.py::test_case_example[mix]"
+]

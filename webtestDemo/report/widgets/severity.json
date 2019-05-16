@@ -1,0 +1,21 @@
+[ {
+  "uid" : "bf7e7b897059af81",
+  "name" : "test_news",
+  "time" : {
+    "start" : 1557900225750,
+    "stop" : 1557900229759,
+    "duration" : 4009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9e9c4b0b9feee0e",
+  "name" : "test_soso",
+  "time" : {
+    "start" : 1557900223379,
+    "stop" : 1557900224601,
+    "duration" : 1222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,89 @@
+{
+  "uid" : "fc5c5fbe88fd825f",
+  "name" : "test_bubble_sort2",
+  "fullName" : "pytest_demo.test_pytest_practice#test_bubble_sort2",
+  "historyId" : "7c54f4f3287a417da9106b63f9fc89d1",
+  "time" : {
+    "start" : 1557282962522,
+    "stop" : 1557282962522,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('nums', <FixtureRequest for <Function 'test_bubble_sort2'>>)",
+  "statusTrace" : "file /Users/a123/PycharmProjects/hemei/my_test/pytest_demo/test_pytest_practice.py, line 29\n  def test_bubble_sort2(nums):\nE       fixture 'nums' not found\n>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, datafiles, doctest_namespace, monkeypatch, pytestconfig, record_property, record_xml_attribute, record_xml_property, recwarn, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\n/Users/a123/PycharmProjects/hemei/my_test/pytest_demo/test_pytest_practice.py:29",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('nums', <FixtureRequest for <Function 'test_bubble_sort2'>>)",
+    "statusTrace" : "file /Users/a123/PycharmProjects/hemei/my_test/pytest_demo/test_pytest_practice.py, line 29\n  def test_bubble_sort2(nums):\nE       fixture 'nums' not found\n>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, datafiles, doctest_namespace, monkeypatch, pytestconfig, record_property, record_xml_attribute, record_xml_property, recwarn, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\n/Users/a123/PycharmProjects/hemei/my_test/pytest_demo/test_pytest_practice.py:29",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "81babbb4169f6931",
+      "name" : "log",
+      "source" : "81babbb4169f6931.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d90866cd23054f43",
+      "name" : "stdout",
+      "source" : "d90866cd23054f43.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "4487bab862ccd28c",
+      "name" : "stderr",
+      "source" : "4487bab862ccd28c.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytest_demo"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest_practice"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "13188-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_demo.test_pytest_practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fc5c5fbe88fd825f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,95 @@
+{
+  "uid" : "29d71fd50b57dbc4",
+  "name" : "test_edit_shopping_trolley",
+  "fullName" : "test_story.TestShoppingTrolley#test_edit_shopping_trolley",
+  "historyId" : "be734ce373e46cd8d125ab244d76ad93",
+  "time" : {
+    "start" : 1557904281213,
+    "stop" : 1557904281213,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6f57b375a2112fae",
+      "name" : "log",
+      "source" : "6f57b375a2112fae.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "79cc543f86f684d3",
+      "name" : "stdout",
+      "source" : "79cc543f86f684d3.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "237aa97ba89e69ee",
+      "name" : "stderr",
+      "source" : "237aa97ba89e69ee.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "修改购物车"
+  }, {
+    "name" : "feature",
+    "value" : "购物车功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_story"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestShoppingTrolley"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "76426-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_story"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8d58eb5cf1059d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557903325314,
+        "stop" : 1557903325314,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29d71fd50b57dbc4.json",
+  "parameterValues" : [ ]
+}

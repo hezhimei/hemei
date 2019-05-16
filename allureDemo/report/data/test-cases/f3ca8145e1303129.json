@@ -1,0 +1,89 @@
+{
+  "uid" : "f3ca8145e1303129",
+  "name" : "test_with_trivial_severity",
+  "fullName" : "test_severity#test_with_trivial_severity",
+  "historyId" : "b3681b27611b9bb8d5216cafef5e823d",
+  "time" : {
+    "start" : 1557904281135,
+    "stop" : 1557904281135,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8096f1523579f43b",
+      "name" : "log",
+      "source" : "8096f1523579f43b.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "bbd4df066d54616",
+      "name" : "stdout",
+      "source" : "bbd4df066d54616.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "cd3adedbfe68df0d",
+      "name" : "stderr",
+      "source" : "cd3adedbfe68df0d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "suite",
+    "value" : "test_severity"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "76426-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_severity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ {
+      "uid" : "a19432b0079cef12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557903325259,
+        "stop" : 1557903325259,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3ca8145e1303129.json",
+  "parameterValues" : [ ]
+}

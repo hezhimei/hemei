@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_webbaidu_onemodule",
+    "children" : [ {
+      "name" : "test_soso",
+      "uid" : "b9e9c4b0b9feee0e",
+      "parentUid" : "649f2f02910acc5b19f9cae40af8cac4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557900223379,
+        "stop" : 1557900224601,
+        "duration" : 1222
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_news",
+      "uid" : "bf7e7b897059af81",
+      "parentUid" : "649f2f02910acc5b19f9cae40af8cac4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557900225750,
+        "stop" : 1557900229759,
+        "duration" : 4009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "649f2f02910acc5b19f9cae40af8cac4"
+  } ]
+}

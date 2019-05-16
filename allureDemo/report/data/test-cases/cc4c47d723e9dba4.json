@@ -1,0 +1,137 @@
+{
+  "uid" : "cc4c47d723e9dba4",
+  "name" : "test_parameterize_with_uneven_value_sets[10-value 1-boolean parameter id]",
+  "fullName" : "test_step_param#test_parameterize_with_uneven_value_sets[10-value 1-boolean parameter id]",
+  "historyId" : "18ab1df9f45c5964b49c0461b3cab5d8",
+  "time" : {
+    "start" : 1557904281190,
+    "stop" : 1557904281191,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "simple_step",
+      "time" : {
+        "start" : 1557904281190,
+        "stop" : 1557904281190,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "step_param1",
+        "value" : "True"
+      }, {
+        "name" : "step_param2",
+        "value" : "10"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "simple_step",
+      "time" : {
+        "start" : 1557904281190,
+        "stop" : 1557904281191,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "step_param1",
+        "value" : "'value 1'"
+      }, {
+        "name" : "step_param2",
+        "value" : "None"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "cca6f905a8bb60fa",
+      "name" : "log",
+      "source" : "cca6f905a8bb60fa.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "9eb76d79e8d71750",
+      "name" : "stdout",
+      "source" : "9eb76d79e8d71750.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "a1f9f45499666435",
+      "name" : "stderr",
+      "source" : "a1f9f45499666435.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_step_param"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "76426-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_step_param"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param1",
+    "value" : "True"
+  }, {
+    "name" : "param2",
+    "value" : "'value 1'"
+  }, {
+    "name" : "param3",
+    "value" : "10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5b071a44082136ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557903325300,
+        "stop" : 1557903325300,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc4c47d723e9dba4.json",
+  "parameterValues" : [ "True", "'value 1'", "10" ]
+}

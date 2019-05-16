@@ -1,0 +1,113 @@
+{
+  "uid" : "746b19280bec228c",
+  "name" : "test_parametrize_with_two_parameters[string 2-True]",
+  "fullName" : "test_step_param#test_parametrize_with_two_parameters[string 2-True]",
+  "historyId" : "ed27adee8e22271aa4a2e29e99d58409",
+  "time" : {
+    "start" : 1557904281177,
+    "stop" : 1557904281177,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "simple_step",
+      "time" : {
+        "start" : 1557904281177,
+        "stop" : 1557904281177,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "step_param1",
+        "value" : "True"
+      }, {
+        "name" : "step_param2",
+        "value" : "'string 2'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ec3c34a1acc8b7c",
+      "name" : "log",
+      "source" : "ec3c34a1acc8b7c.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "7012fee827f6fba2",
+      "name" : "stdout",
+      "source" : "7012fee827f6fba2.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "59a167ca1d470831",
+      "name" : "stderr",
+      "source" : "59a167ca1d470831.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_step_param"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "76426-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_step_param"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param1",
+    "value" : "True"
+  }, {
+    "name" : "param2",
+    "value" : "'string 2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ee257809577448c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557903325290,
+        "stop" : 1557903325291,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "746b19280bec228c.json",
+  "parameterValues" : [ "True", "'string 2'" ]
+}

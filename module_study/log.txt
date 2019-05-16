@@ -1,0 +1,27 @@
+2019-05-08 20:10:38,910 - __main__ - INFO - Start print log
+2019-05-08 20:10:38,910 - __main__ - WARNING - Something maybe fail.
+2019-05-08 20:10:38,910 - __main__ - INFO - Finish
+2019-05-08 20:10:38,910 - __main__ - INFO - Start print log
+2019-05-08 20:10:38,910 - __main__ - INFO - Start print log
+2019-05-08 20:10:38,910 - __main__ - WARNING - Something maybe fail.
+2019-05-08 20:10:38,910 - __main__ - WARNING - Something maybe fail.
+2019-05-08 20:10:38,911 - __main__ - INFO - Finish
+2019-05-08 20:10:38,911 - __main__ - INFO - Finish
+2019-05-08 20:22:30,854 - __main__ - INFO - Start print log
+2019-05-08 20:22:30,854 - __main__ - WARNING - Something maybe fail.
+2019-05-08 20:22:30,854 - __main__ - INFO - Finish
+2019-05-08 20:22:30,855 - __main__ - INFO - Start print log
+2019-05-08 20:22:30,855 - __main__ - INFO - Start print log
+2019-05-08 20:22:30,855 - __main__ - WARNING - Something maybe fail.
+2019-05-08 20:22:30,855 - __main__ - WARNING - Something maybe fail.
+2019-05-08 20:22:30,855 - __main__ - INFO - Finish
+2019-05-08 20:22:30,855 - __main__ - INFO - Finish
+2019-05-09 14:47:46,645 - __main__ - INFO - Start print log
+2019-05-09 14:47:46,645 - __main__ - WARNING - Something maybe fail.
+2019-05-09 14:47:46,645 - __main__ - INFO - Finish
+2019-05-09 14:47:46,646 - __main__ - INFO - Start print log
+2019-05-09 14:47:46,646 - __main__ - INFO - Start print log
+2019-05-09 14:47:46,646 - __main__ - WARNING - Something maybe fail.
+2019-05-09 14:47:46,646 - __main__ - WARNING - Something maybe fail.
+2019-05-09 14:47:46,646 - __main__ - INFO - Finish
+2019-05-09 14:47:46,646 - __main__ - INFO - Finish

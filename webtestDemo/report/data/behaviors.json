@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "百度搜索功能",
+    "children" : [ {
+      "name" : "搜索验证-字母",
+      "children" : [ {
+        "name" : "test_soso",
+        "uid" : "b9e9c4b0b9feee0e",
+        "parentUid" : "aa4147da2ff31862e32db3488d5d7b5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1557900223379,
+          "stop" : 1557900224601,
+          "duration" : 1222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa4147da2ff31862e32db3488d5d7b5b"
+    } ],
+    "uid" : "40b88217084e1c60fd9c51456646e96b"
+  }, {
+    "name" : "百度new功能",
+    "children" : [ {
+      "name" : "搜索打开新闻页",
+      "children" : [ {
+        "name" : "test_news",
+        "uid" : "bf7e7b897059af81",
+        "parentUid" : "4da316b962490e7dbab522f724e32613",
+        "status" : "passed",
+        "time" : {
+          "start" : 1557900225750,
+          "stop" : 1557900229759,
+          "duration" : 4009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4da316b962490e7dbab522f724e32613"
+    } ],
+    "uid" : "d57d7a52b81471f93c1732f360b01869"
+  } ]
+}

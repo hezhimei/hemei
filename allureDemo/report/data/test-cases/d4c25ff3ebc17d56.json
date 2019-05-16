@@ -1,0 +1,156 @@
+{
+  "uid" : "d4c25ff3ebc17d56",
+  "name" : "test_case_example[decimal123]",
+  "fullName" : "test_allure_all#test_case_example[decimal123]",
+  "historyId" : "0c1fba3007773d0966df9fd17916d031",
+  "time" : {
+    "start" : 1557903308470,
+    "stop" : 1557903308472,
+    "duration" : 2
+  },
+  "description" : "测试相加的各种情况",
+  "descriptionHtml" : "<p>测试相加的各种情况</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试相加的各种情况",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试步骤1：字符串相加：'4'，'54'",
+      "time" : {
+        "start" : 1557903308471,
+        "stop" : 1557903308471,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "str1",
+        "value" : "'4'"
+      }, {
+        "name" : "str2",
+        "value" : "'54'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "测试步骤2，结果校验 454 == 454",
+      "time" : {
+        "start" : 1557903308471,
+        "stop" : 1557903308471,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae1f05b6b22a99ee",
+        "name" : "这是错误页的结果信息",
+        "source" : "ae1f05b6b22a99ee.html",
+        "type" : "text/html",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f1c9c43d98c6d191",
+      "name" : "{'para_one': '4', 'para_two': '54'}",
+      "source" : "f1c9c43d98c6d191.attach",
+      "type" : "text/plain",
+      "size" : 12
+    }, {
+      "uid" : "557e0ce49e628a77",
+      "name" : "454",
+      "source" : "557e0ce49e628a77.attach",
+      "type" : "text/plain",
+      "size" : 19
+    }, {
+      "uid" : "19ef3aa5129b3aa2",
+      "name" : "log",
+      "source" : "19ef3aa5129b3aa2.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "5d9db561dc5cc168",
+      "name" : "stdout",
+      "source" : "5d9db561dc5cc168.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d8392888c9bfa340",
+      "name" : "stderr",
+      "source" : "d8392888c9bfa340.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试模块_demo2"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "测试功能_demo1"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_all"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "71450-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "para_one",
+    "value" : "'4'"
+  }, {
+    "name" : "para_two",
+    "value" : "'54'"
+  } ],
+  "links" : [ {
+    "name" : "http://www.jira.com/id=19688",
+    "url" : "http://www.jira.com/id=19688",
+    "type" : "issue"
+  }, {
+    "name" : "用例名：测试字符串相等",
+    "url" : "用例名：测试字符串相等",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4c25ff3ebc17d56.json",
+  "parameterValues" : [ "'4'", "'54'" ]
+}

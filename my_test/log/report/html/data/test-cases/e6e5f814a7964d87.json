@@ -1,0 +1,114 @@
+{
+  "uid" : "e6e5f814a7964d87",
+  "name" : "test_answers",
+  "fullName" : "pytest_demo.test_pytest1.TestSample#test_answers",
+  "historyId" : "fdf6203edb224f3bf0d19f575919c1bd",
+  "time" : {
+    "start" : 1557282962430,
+    "stop" : 1557282962430,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "loginandlogout",
+    "time" : {
+      "start" : 1557282962429,
+      "stop" : 1557282962429,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dd934374c66072e",
+      "name" : "log",
+      "source" : "dd934374c66072e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "a1d9a7e13d15078c",
+      "name" : "stdout",
+      "source" : "a1d9a7e13d15078c.txt",
+      "type" : "text/plain",
+      "size" : 54
+    }, {
+      "uid" : "aa71299a6105ba4f",
+      "name" : "stderr",
+      "source" : "aa71299a6105ba4f.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "loginandlogout::0",
+    "time" : {
+      "start" : 1557282962431,
+      "stop" : 1557282962431,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytest_demo"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSample"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "13188-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_demo.test_pytest1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6e5f814a7964d87.json",
+  "parameterValues" : [ ]
+}

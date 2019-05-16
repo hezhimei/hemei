@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'h5' in 'this'",
+      "children" : [ {
+        "name" : "test_one",
+        "uid" : "5d1c28cad0b6d600",
+        "parentUid" : "e5a2e1026e167eab015c6a33d8ebee09",
+        "status" : "failed",
+        "time" : {
+          "start" : 1557831266390,
+          "stop" : 1557831266390,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5a2e1026e167eab015c6a33d8ebee09"
+    }, {
+      "name" : "AssertionError: assert 'hello1' == 'hello'\n  - hello1\n  ?      -\n  + hello",
+      "children" : [ {
+        "name" : "test_two",
+        "uid" : "6eb80b4cb027476a",
+        "parentUid" : "7c34c96c93530e04a3f1d9beb230c4bd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1557831266436,
+          "stop" : 1557831266437,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c34c96c93530e04a3f1d9beb230c4bd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

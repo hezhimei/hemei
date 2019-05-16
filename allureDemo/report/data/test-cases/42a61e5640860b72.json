@@ -1,0 +1,166 @@
+{
+  "uid" : "42a61e5640860b72",
+  "name" : "test_case_example[decimal123]",
+  "fullName" : "test_allure_all#test_case_example[decimal123]",
+  "historyId" : "0c1fba3007773d0966df9fd17916d031",
+  "time" : {
+    "start" : 1557904261510,
+    "stop" : 1557904261513,
+    "duration" : 3
+  },
+  "description" : "测试相加的各种情况",
+  "descriptionHtml" : "<p>测试相加的各种情况</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试相加的各种情况",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试步骤1：字符串相加：'4'，'54'",
+      "time" : {
+        "start" : 1557904261511,
+        "stop" : 1557904261511,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "str1",
+        "value" : "'4'"
+      }, {
+        "name" : "str2",
+        "value" : "'54'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "测试步骤2，结果校验 454 == 454",
+      "time" : {
+        "start" : 1557904261511,
+        "stop" : 1557904261512,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5db65dfac2d335e3",
+        "name" : "这是错误页的结果信息",
+        "source" : "5db65dfac2d335e3.html",
+        "type" : "text/html",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ec813b9dc09d2dce",
+      "name" : "{'para_one': '4', 'para_two': '54'}",
+      "source" : "ec813b9dc09d2dce.attach",
+      "type" : "text/plain",
+      "size" : 12
+    }, {
+      "uid" : "4afac0644cf25327",
+      "name" : "454",
+      "source" : "4afac0644cf25327.attach",
+      "type" : "text/plain",
+      "size" : 19
+    }, {
+      "uid" : "48a1a67ceff454b9",
+      "name" : "log",
+      "source" : "48a1a67ceff454b9.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "478e8005128f849a",
+      "name" : "stdout",
+      "source" : "478e8005128f849a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "a6765bba05fbceb",
+      "name" : "stderr",
+      "source" : "a6765bba05fbceb.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "测试模块_demo2"
+  }, {
+    "name" : "feature",
+    "value" : "测试功能_demo1"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_all"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "76426-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "para_one",
+    "value" : "'4'"
+  }, {
+    "name" : "para_two",
+    "value" : "'54'"
+  } ],
+  "links" : [ {
+    "name" : "用例名：测试字符串相等",
+    "url" : "用例名：测试字符串相等",
+    "type" : "test_case"
+  }, {
+    "name" : "http://www.jira.com/id=19688",
+    "url" : "http://www.jira.com/id=19688",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "d4c25ff3ebc17d56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557903308470,
+        "stop" : 1557903308472,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42a61e5640860b72.json",
+  "parameterValues" : [ "'4'", "'54'" ]
+}

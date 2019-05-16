@@ -1,0 +1,103 @@
+{
+  "uid" : "2bc60318acd9620b",
+  "name" : "test_parametrize_with_two_parameters[string 2-False]",
+  "fullName" : "test_step_param#test_parametrize_with_two_parameters[string 2-False]",
+  "historyId" : "9f4a38947ecfd79a90faf396ce839786",
+  "time" : {
+    "start" : 1557903325295,
+    "stop" : 1557903325296,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "simple_step",
+      "time" : {
+        "start" : 1557903325296,
+        "stop" : 1557903325296,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "step_param1",
+        "value" : "False"
+      }, {
+        "name" : "step_param2",
+        "value" : "'string 2'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "46b2c39577f75c7b",
+      "name" : "log",
+      "source" : "46b2c39577f75c7b.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "7dba70dc209e8667",
+      "name" : "stdout",
+      "source" : "7dba70dc209e8667.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f290631322a90c22",
+      "name" : "stderr",
+      "source" : "f290631322a90c22.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_step_param"
+  }, {
+    "name" : "host",
+    "value" : "123deMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "71450-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_step_param"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param1",
+    "value" : "False"
+  }, {
+    "name" : "param2",
+    "value" : "'string 2'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bc60318acd9620b.json",
+  "parameterValues" : [ "False", "'string 2'" ]
+}
